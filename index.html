@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador Challenge</title>
+    <link rel="stylesheet" href = 'style.css'>
+    <img src="./img/Frame 6.png" alt="Logo do titulo" class="logotipo">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Decodificador Challenge</h1>
+    </header>
+    <main class="conteudo">
+        <div class="ladoesquerdo">
+                <div class="textoacriptografar">
+                <textarea placeholder="Digite seu texto" name="textoinput" class="textoinput"></textarea>
+            </div>
+            <div class="aviso"></div>
+                <h5 class="ladoesquerdo_aviso">Apenas letras minúsculas e sem acento.</h4>
+            <div class="ladoesquerdo_botoes">
+                <button onclick="botaoCriptografar()" class="buttonCripto">Criptografar</button>
+                <button onclick="botaoDescriptografar()" class="buttonDescripto">Descriptografar</button>
+            </div>
+        </div>
+        <div class="ladodireito"></div>
+            <div class="ladodireito_fundo">
+                <h2 class="ladodireito_texto" id="textoencriptado"></h2>
+                <div class="ladodireito_saidatexto">
+                    <img src="./img/High quality products 1 1.png" id="imagemdireita" class="imagemdireita">
+                    <h3 class="ladodireito_texto" id="ladodireito_texto">Nenhuma mensagem</h3>
+                    <h4 class="ladodireito_texto" id="ladodireito_texto">Por favor Digite uma mensagem para criptografar</h4>
+                    <button onclick="botaoCopiar()" id="buttonCopiar" class="buttonCopiar">Copiar</button>
+                </div>
+            </div>
+            
+    </main>
+    <footer class="creditos">
+        <h5 class="madeby">Criado por: </h6>
+        <a href="https://github.com/fujikow" class="fujikow">/fujikow</a>
+      </footer>
+      <script src="app.js" defer></script>
+    </body>
+    </html>
+</body>
+</html>
